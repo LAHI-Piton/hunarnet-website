@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HunarNet — Where Teachers Learn, Share And Lead</title>
+<meta name="description" content="HunarNet — a teacher community by Lend A Hand India where teachers learn, share and lead vocational and experiential education.">
+<link rel="icon" type="image/png" href="assets/logo-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <div class="nav">
+    <a href="#home" class="brand">
+      <img src="assets/logo.png" alt="HunarNet logo">
+      <span class="brand-text">Hunar<b>Net</b></span>
+    </a>
+    <nav class="links">
+      <div class="dd" data-dd="vision">
+        <button class="dd-trigger"><span data-i18n="nav.vision">Vision</span> <svg viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg></button>
+        <div class="dd-panel">
+          <div class="dd-item" data-goto="#home">
+            <div class="ico" style="background:var(--sky);">🎯</div>
+            <div class="txt"><strong data-i18n="nav.vision_ourVision">Our Vision</strong><span data-i18n="nav.vision_ourVision_sub"></span></div>
+          </div>
+          <div class="dd-item" data-goto="#learn">
+            <div class="ico" style="background:#dfe9f6;">📘</div>
+            <div class="txt"><strong data-i18n="nav.vision_lsl">Learn · Share · Lead</strong><span data-i18n="nav.vision_lsl_sub"></span></div>
+          </div>
+          <div class="dd-item" data-goto="#pillars">
+            <div class="ico" style="background:var(--beige);">🏛️</div>
+            <div class="txt"><strong data-i18n="nav.vision_pillars">Community Pillars</strong><span data-i18n="nav.vision_pillars_sub"></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="dd" data-dd="loop">
+        <button class="dd-trigger"><span data-i18n="nav.loop">The Loop</span> <svg viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg></button>
+        <div class="dd-panel">
+          <div class="dd-item" data-goto="#loop" data-lstep="0">
+            <div class="ico" style="background:var(--sky);">📘</div>
+            <div class="txt"><strong data-i18n="nav.loop_learn">Learn</strong><span data-i18n="nav.loop_learn_sub"></span></div>
+          </div>
+          <div class="dd-item" data-goto="#loop" data-lstep="2">
+            <div class="ico" style="background:#d8ecc4;">🗣️</div>
+            <div class="txt"><strong data-i18n="nav.loop_share">Share</strong><span data-i18n="nav.loop_share_sub"></span></div>
+          </div>
+          <div class="dd-item" data-goto="#loop" data-lstep="4">
+            <div class="ico" style="background:var(--beige);">🌟</div>
+            <div class="txt"><strong data-i18n="nav.loop_lead">Lead</strong><span data-i18n="nav.loop_lead_sub"></span></div>
+          </div>
+          <div class="dd-divider"></div>
+          <div class="dd-item" data-goto="#loop">
+            <div class="ico" style="background:var(--navy);color:#fff;">🔄</div>
+            <div class="txt"><strong data-i18n="nav.loop_full">See the full loop</strong><span data-i18n="nav.loop_full_sub"></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="dd" data-dd="joinus">
+        <button class="dd-trigger"><span data-i18n="nav.joinUs">Join Us</span> <svg viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg></button>
+        <div class="dd-panel">
+          <div class="dd-item" data-goto="#share">
+            <div class="ico" style="background:var(--coral);">✍️</div>
+            <div class="txt"><strong data-i18n="nav.join_share">Share Your Practice</strong><span data-i18n="nav.join_share_sub"></span></div>
+          </div>
+          <div class="dd-item" data-goto="#charcha">
+            <div class="ico" style="background:var(--sky);">💬</div>
+            <div class="txt"><strong data-i18n="nav.join_discuss">Join a Discussion</strong><span data-i18n="nav.join_discuss_sub"></span></div>
+          </div>
+          <div class="dd-divider"></div>
+          <div class="dd-item" data-open-join="1">
+            <div class="ico" style="background:var(--green);color:#fff;">🤝</div>
+            <div class="txt"><strong data-i18n="nav.join_community">Join the Community</strong><span data-i18n="nav.join_community_sub"></span></div>
+          </div>
+        </div>
+      </div>
+      <div class="dd" data-dd="faqs">
+        <button class="dd-trigger"><span data-i18n="nav.faqs">FAQs</span> <svg viewBox="0 0 10 6"><path d="M1 1l4 4 4-4" stroke="currentColor" stroke-width="1.6" fill="none" stroke-linecap="round"/></svg></button>
+        <div class="dd-panel">
+          <div class="dd-item" data-goto="#faqs" data-faq="0">
+            <div class="ico" style="background:var(--sky);">❓</div>
+            <div class="txt"><strong data-i18n="nav.faq_who">Who can join?</strong><span data-i18n="nav.faq_who_sub"></span></div>
+          </div>
+          <div class="dd-item" data-goto="#faqs" data-faq="2">
+            <div class="ico" style="background:var(--beige);">💰</div>
+            <div class="txt"><strong data-i18n="nav.faq_free">Is it free?</strong><span data-i18n="nav.faq_free_sub"></span></div>
+          </div>
+          <div class="dd-divider"></div>
+          <div class="dd-item" data-goto="#faqs">
+            <div class="ico" style="background:var(--navy);color:#fff;">→</div>
+            <div class="txt"><strong data-i18n="nav.faq_all">See all FAQs</strong><span data-i18n="nav.faq_all_sub"></span></div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="nav-actions">
+      <div class="lang-toggle">
+        <button data-setlang="en" class="active">EN</button>
+        <button data-setlang="hi">हिं</button>
+      </div>
+      <a href="#" class="login-link" style="display:none" id="loginLink" data-i18n="nav.login">Login</a>
+      <button class="btn btn-primary btn-sm" id="navJoinBtn" data-i18n="nav.joinCommunity">Join Community</button>
+      <button class="hamburger" id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="m-lang">
+      <button data-setlang="en" class="active">English</button>
+      <button data-setlang="hi">हिंदी</button>
+    </div>
+    <details class="m-group">
+      <summary data-i18n="nav.vision">Vision</summary>
+      <div class="m-sub">
+        <a href="#home" data-i18n="nav.vision_ourVision">Our Vision</a>
+        <a href="#learn" data-i18n="nav.vision_lsl">Learn · Share · Lead</a>
+        <a href="#pillars" data-i18n="nav.vision_pillars">Community Pillars</a>
+      </div>
+    </details>
+    <details class="m-group">
+      <summary data-i18n="nav.loop">The Loop</summary>
+      <div class="m-sub">
+        <a href="#loop" data-lstep="0" data-i18n="loop.stages.0.name">Learn</a>
+        <a href="#loop" data-lstep="1" data-i18n="loop.stages.1.name">Practice</a>
+        <a href="#loop" data-lstep="2" data-i18n="loop.stages.2.name">Share</a>
+        <a href="#loop" data-lstep="3" data-i18n="loop.stages.3.name">Recognition</a>
+        <a href="#loop" data-lstep="4" data-i18n="loop.stages.4.name">Lead</a>
+        <a href="#loop" data-lstep="5" data-i18n="loop.stages.5.name">Mentor</a>
+      </div>
+    </details>
+    <details class="m-group">
+      <summary data-i18n="nav.joinUs">Join Us</summary>
+      <div class="m-sub">
+        <a href="#share" data-i18n="nav.join_share">Share Your Practice</a>
+        <a href="#charcha" data-i18n="nav.join_discuss">Join a Discussion</a>
+        <a href="#" id="mobileJoinLink" data-i18n="nav.join_community">Join the Community</a>
+      </div>
+    </details>
+    <details class="m-group">
+      <summary data-i18n="nav.faqs">FAQs</summary>
+      <div class="m-sub">
+        <a href="#faqs" data-faq="0" data-i18n="nav.faq_who">Who can join?</a>
+        <a href="#faqs" data-faq="2" data-i18n="nav.faq_free">Is it free?</a>
+        <a href="#faqs" data-i18n="nav.faq_all">See all FAQs</a>
+      </div>
+    </details>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home" style="padding:0;">
+  <div class="hero-pattern"></div>
+  <div class="hero-blob b1"></div>
+  <div class="hero-blob b2"></div>
+  <div class="hero-inner">
+    <div class="hero-content">
+      <span class="eyebrow" data-i18n="hero.eyebrow">A network by Lend A Hand India</span>
+      <h1 data-i18n="hero.title" data-i18n-html>Building teacher communities to transform <span>learning</span></h1>
+      <p class="hero-lede" data-i18n="hero.lede">A collaborative space where teachers learn, share, experiment and lead the future of vocational &amp; experiential education.</p>
+      <div class="hero-ctas">
+        <button class="btn btn-primary" id="heroJoinBtn" data-i18n="hero.cta_join">Join the Community</button>
+        <a href="#learn" class="btn btn-outline dark" data-i18n="hero.cta_explore">Explore HunarNet</a>
+      </div>
+    </div>
+    <div class="hero-graphic">
+      <div class="hero-ring r1"></div>
+      <div class="hero-ring r2"></div>
+      <span class="hero-dot d1"></span>
+      <span class="hero-dot d2"></span>
+      <span class="hero-dot d3"></span>
+      <img src="assets/logo-icon.png" alt="HunarNet community icon">
+    </div>
+  </div>
+  <div class="scroll-cue"><span data-i18n="hero.scroll">Scroll</span><span class="line"></span></div>
+</section>
+
+<!-- WHAT IS HUNARNET / VISION -->
+<section id="learn">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="vision.eyebrow">Our Vision</span>
+      <h2 class="section-title" data-i18n="vision.title">Where teachers learn, share and lead</h2>
+      <p class="section-sub" data-i18n="vision.sub"></p>
+    </div>
+    <div class="triad reveal">
+      <div class="triad-card">
+        <div class="triad-num">01</div>
+        <div class="triad-icon" style="background:var(--sky);">📘</div>
+        <h3 data-i18n="vision.card_learn_title">Learn</h3>
+        <p data-i18n="vision.card_learn_body"></p>
+      </div>
+      <div class="triad-card">
+        <div class="triad-num">02</div>
+        <div class="triad-icon" style="background:var(--coral);">🤝</div>
+        <h3 data-i18n="vision.card_share_title">Share</h3>
+        <p data-i18n="vision.card_share_body"></p>
+      </div>
+      <div class="triad-card">
+        <div class="triad-num">03</div>
+        <div class="triad-icon" style="background:var(--green);">🌱</div>
+        <h3 data-i18n="vision.card_lead_title">Lead</h3>
+        <p data-i18n="vision.card_lead_body"></p>
+      </div>
+    </div>
+    <div class="flow-line reveal">
+      <span data-i18n="vision.flow_conversation">Conversation</span><span class="arrow">→</span><span data-i18n="vision.flow_practice">Practice</span><span class="arrow">→</span><span data-i18n="vision.flow_reflection">Reflection</span><span class="arrow">→</span><span data-i18n="vision.flow_leadership">Leadership</span>
+    </div>
+  </div>
+</section>
+
+<!-- COMMUNITY PILLARS -->
+<section id="pillars">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="pillars.eyebrow">The three living pillars</span>
+      <h2 class="section-title" data-i18n="pillars.title">Community pillars</h2>
+      <p class="section-sub" data-i18n="pillars.sub"></p>
+    </div>
+    <div class="pillar-tabs reveal" id="pillarTabs"></div>
+    <div class="pillar-body reveal" id="pillarBody"></div>
+  </div>
+</section>
+
+<!-- CHARCHA / WHAT'S HAPPENING -->
+<section class="section-alt" id="charcha">
+  <div class="wrap">
+    <div class="head-row reveal">
+      <div>
+        <span class="eyebrow" data-i18n="charcha.eyebrow">Charcha · peer discussions</span>
+        <h2 class="section-title" data-i18n="charcha.title">Real classroom questions. Real teacher answers.</h2>
+      </div>
+      <button class="btn btn-primary btn-sm" id="startDiscussionBtn" data-i18n="charcha.start">+ Start a Discussion</button>
+    </div>
+    <div class="filter-row reveal" id="filterRow"></div>
+    <div class="discuss-list reveal" id="discussList"></div>
+  </div>
+</section>
+
+<!-- TEACHER SPOTLIGHT -->
+<section id="recognise">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="spotlight.eyebrow">Teacher practice spotlight</span>
+      <h2 class="section-title" data-i18n="spotlight.title">Celebrating what teachers try, learn and share</h2>
+    </div>
+    <div class="spotlight reveal" id="spotlight">
+      <div class="spot-imgwrap" id="spotImgWrap"></div>
+      <div class="spot-text">
+        <div class="spot-text-inner" id="spotQuotes"></div>
+        <div class="spot-cap" id="spotCap"></div>
+        <div class="spot-note" data-i18n="spotlight.note"></div>
+        <div class="spot-dots" id="spotDots"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTRIBUTION TO LEADERSHIP LOOP -->
+<section id="loop">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="loop.eyebrow">The HunarNet loop</span>
+      <h2 class="section-title" data-i18n="loop.title">From contribution to leadership</h2>
+      <p class="section-sub" data-i18n="loop.sub"></p>
+    </div>
+    <div class="loop-wrap reveal">
+      <div class="loop-svg-wrap">
+        <svg id="loopSvg" viewBox="0 0 400 400" width="100%" style="max-width:420px;"></svg>
+      </div>
+      <div class="loop-detail" id="loopDetail"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SHARE YOUR PRACTICE -->
+<section class="section-alt" id="share">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="share.eyebrow">Contribute</span>
+      <h2 class="section-title" data-i18n="share.title">Share your practice</h2>
+      <p class="section-sub" data-i18n="share.sub"></p>
+    </div>
+    <div class="share-panel reveal">
+      <div id="shareForm">
+        <div class="share-grid">
+          <div>
+            <label class="f" style="margin-top:0;" data-i18n="share.q_type">What would you like to share?</label>
+            <div class="type-picker" id="typePicker"></div>
+            <label class="f" data-i18n="share.q_title">Title</label>
+            <input type="text" id="shareTitle" data-i18n-ph="share.ph_title">
+            <label class="f" data-i18n="share.q_upload">Upload photos / files</label>
+            <div class="upload-box" data-i18n="share.upload_hint">+ Add files (optional)</div>
+          </div>
+          <div>
+            <label class="f" style="margin-top:0;" data-i18n="share.q_about">Tell us about it</label>
+            <textarea id="shareAbout" rows="3" data-i18n-ph="share.ph_about"></textarea>
+            <label class="f" data-i18n="share.q_challenge">What challenge were you addressing?</label>
+            <textarea id="shareChallenge" rows="2" data-i18n-ph="share.ph_challenge"></textarea>
+            <label class="f" data-i18n="share.q_changed">What changed?</label>
+            <textarea id="shareChanged" rows="2" data-i18n-ph="share.ph_changed"></textarea>
+          </div>
+        </div>
+        <div style="text-align:center;margin-top:30px;">
+          <button class="btn btn-primary" id="shareSubmitBtn" data-i18n="share.submit">Submit for Community</button>
+        </div>
+      </div>
+      <div class="confirm-box" id="shareConfirm">
+        <div class="confirm-icon">✓</div>
+        <h3 data-i18n="share.confirm_title">Thank you for sharing!</h3>
+        <p data-i18n="share.confirm_body"></p>
+        <button class="btn btn-outline dark btn-sm" id="shareAnotherBtn" style="margin-top:20px;" data-i18n="share.another">Share another practice</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- JOIN CTA -->
+<section id="join">
+  <div class="wrap">
+    <div class="join-cta reveal">
+      <h2 data-i18n="joinCta.title">Join HunarNet</h2>
+      <p class="quote" data-i18n="joinCta.quote"></p>
+      <button class="btn btn-primary" id="ctaJoinBtn" data-i18n="joinCta.cta">Join the Community</button>
+    </div>
+  </div>
+</section>
+
+<!-- IMPACT -->
+<section class="section-alt" id="impact">
+  <div class="wrap">
+    <div class="reveal" style="text-align:center;">
+      <span class="eyebrow" data-i18n="impact.eyebrow">Impact of the community</span>
+      <h2 class="section-title" data-i18n="impact.title">Growing, one classroom at a time</h2>
+    </div>
+    <div class="impact-grid reveal" id="impactGrid"></div>
+
+    <div class="testimonial-row reveal">
+      <div style="text-align:center;">
+        <span class="eyebrow" data-i18n="impact.testi_eyebrow">In their words</span>
+        <h3 class="testi-heading" data-i18n="impact.testi_title">What teachers are saying</h3>
+      </div>
+      <div class="testi-grid" id="testiGrid"></div>
+      <p class="testi-note" data-i18n="impact.testi_note"></p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQS -->
+<section id="faqs">
+  <div class="wrap">
+    <div class="reveal">
+      <span class="eyebrow" data-i18n="faqs.eyebrow">Good to know</span>
+      <h2 class="section-title" data-i18n="faqs.title">Frequently asked questions</h2>
+      <p class="section-sub" data-i18n="faqs.sub"></p>
+    </div>
+    <div class="faq-list reveal" id="faqList"></div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <img src="assets/logo.png" alt="HunarNet">
+        <span class="footer-brand-text">HunarNet</span>
+      </div>
+      <div class="footer-links">
+        <a href="#learn" data-i18n="footer.about">About</a>
+        <a href="#charcha" data-i18n="footer.guidelines">Community Guidelines</a>
+        <a href="#share" data-i18n="footer.contact">Contact</a>
+        <a href="#pillars" data-i18n="footer.resources">Resources</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>Lend A Hand India &nbsp;|&nbsp; <b data-i18n="footer.tagline">Building A Skilled Tomorrow</b></span>
+      <span data-i18n="footer.copyright">© 2026 HunarNet. A Lend A Hand India initiative.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- MOBILE BOTTOM BAR -->
+<div class="mobile-bar">
+  <a href="#home">🏠<span data-i18n="mobileBar.home">Home</span></a>
+  <a href="#charcha">💬<span data-i18n="mobileBar.charcha">Charcha</span></a>
+  <button class="plus" id="mobilePlus">+</button>
+  <a href="#pillars">📚<span data-i18n="mobileBar.resources">Resources</span></a>
+  <a href="#join">👤<span data-i18n="mobileBar.profile">Profile</span></a>
+</div>
+<div class="plus-sheet" id="plusSheet">
+  <a href="#share" id="plusShare" data-i18n="mobileBar.share">Share a Practice</a>
+  <a href="#charcha" id="plusDiscuss" data-i18n="mobileBar.discuss">Start a Discussion</a>
+  <a href="#" id="plusJoin" data-i18n="mobileBar.join">Join the Community</a>
+</div>
+
+<!-- JOIN MODAL -->
+<div class="modal-overlay" id="joinModal">
+  <div class="modal">
+    <button class="modal-close" id="modalClose">✕</button>
+    <div class="modal-progress" id="modalProgress"></div>
+
+    <div class="modal-step active" data-step="0">
+      <h3 data-i18n="modal.welcome_title">Welcome to HunarNet</h3>
+      <p class="msub" data-i18n="modal.welcome_sub"></p>
+      <div style="margin-top:30px;text-align:center;">
+        <button class="btn btn-primary" id="startJoin" data-i18n="modal.start">Start</button>
+      </div>
+    </div>
+
+    <div class="modal-step" data-step="1">
+      <h3 data-i18n="modal.about_title">About you</h3>
+      <p class="msub" data-i18n="modal.about_sub"></p>
+      <div class="modal-field">
+        <label class="f" style="margin-top:0;" data-i18n="modal.name">Name</label>
+        <input type="text" id="joinName" data-i18n-ph="modal.ph_name">
+      </div>
+      <div class="modal-field">
+        <label class="f" data-i18n="modal.school">School</label>
+        <input type="text" id="joinSchool" data-i18n-ph="modal.ph_school">
+      </div>
+      <div class="modal-field">
+        <label class="f" data-i18n="modal.role">Role</label>
+        <div class="role-grid" id="roleGroup" data-group="role"></div>
+      </div>
+      <div class="modal-nav">
+        <button class="btn-back" data-back data-i18n="modal.back">Back</button>
+        <button class="btn btn-primary btn-sm" data-next data-i18n="modal.next">Next</button>
+      </div>
+    </div>
+
+    <div class="modal-step" data-step="2">
+      <h3 data-i18n="modal.exp_title">Your experience</h3>
+      <p class="msub" data-i18n="modal.exp_sub"></p>
+      <div class="modal-field">
+        <div class="interest-grid" id="expGroup" data-group="experience" data-multi="true"></div>
+      </div>
+      <div class="modal-nav">
+        <button class="btn-back" data-back data-i18n="modal.back">Back</button>
+        <button class="btn btn-primary btn-sm" data-next data-i18n="modal.next">Next</button>
+      </div>
+    </div>
+
+    <div class="modal-step" data-step="3">
+      <h3 data-i18n="modal.part_title">How would you like to participate?</h3>
+      <p class="msub" data-i18n="modal.part_sub"></p>
+      <div class="modal-field">
+        <div class="interest-grid" id="partGroup" data-group="participate" data-multi="true"></div>
+      </div>
+      <div class="modal-nav">
+        <button class="btn-back" data-back data-i18n="modal.back">Back</button>
+        <button class="btn btn-primary btn-sm" id="finishJoin" data-i18n="modal.finish">Join HunarNet</button>
+      </div>
+    </div>
+
+    <div class="modal-step" data-step="4">
+      <div class="success-screen">
+        <div class="ic">✓</div>
+        <h3 style="text-align:center;" data-i18n="modal.success_title">You're in!</h3>
+        <p class="msub" style="text-align:center;" data-i18n="modal.success_sub"></p>
+        <button class="btn btn-primary" id="doneJoin" style="margin-top:22px;" data-i18n="modal.done">Done</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- SCRIPTS -->
+<script src="js/config.js"></script>
+<script src="js/i18n.js"></script>
+<script src="js/forms.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

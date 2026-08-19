@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "title": "HunarNet — Where Teachers Learn, Share And Lead",
+    "langName": "English",
+    "dir": "ltr"
+  },
+  "nav": {
+    "brand": "HunarNet",
+    "vision": "Vision",
+    "loop": "The Loop",
+    "joinUs": "Join Us",
+    "faqs": "FAQs",
+    "login": "Login",
+    "joinCommunity": "Join Community",
+    "vision_ourVision": "Our Vision",
+    "vision_ourVision_sub": "Why HunarNet exists, and who it's for",
+    "vision_lsl": "Learn · Share · Lead",
+    "vision_lsl_sub": "The idea behind the community",
+    "vision_pillars": "Community Pillars",
+    "vision_pillars_sub": "Study Circles, Charcha & Guest Exchange",
+    "loop_learn": "Learn",
+    "loop_learn_sub": "NEP study circles & guest sessions",
+    "loop_share": "Share",
+    "loop_share_sub": "Tell the community what happened",
+    "loop_lead": "Lead",
+    "loop_lead_sub": "Take on visible leadership",
+    "loop_full": "See the full loop",
+    "loop_full_sub": "All 7 stages, contribution to leadership",
+    "join_share": "Share Your Practice",
+    "join_share_sub": "A lesson, tool, project or reflection",
+    "join_discuss": "Join a Discussion",
+    "join_discuss_sub": "Charcha — real classroom questions",
+    "join_community": "Join the Community",
+    "join_community_sub": "One simple form — takes a minute",
+    "faq_who": "Who can join?",
+    "faq_who_sub": "Eligibility & entry process",
+    "faq_free": "Is it free?",
+    "faq_free_sub": "Cost & time commitment",
+    "faq_all": "See all FAQs",
+    "faq_all_sub": "Everything else you're wondering"
+  },
+  "hero": {
+    "eyebrow": "A network by Lend A Hand India",
+    "title": "Building teacher communities to transform <span>learning</span>",
+    "lede": "A collaborative space where teachers learn, share, experiment and lead the future of vocational & experiential education.",
+    "cta_join": "Join the Community",
+    "cta_explore": "Explore HunarNet",
+    "scroll": "Scroll"
+  },
+  "vision": {
+    "eyebrow": "Our Vision",
+    "title": "Where teachers learn, share and lead",
+    "sub": "HunarNet is an open, continuous professional learning space for vocational and experiential-education teachers — built on conversation before content, and contribution before consumption.",
+    "card_learn_title": "Learn",
+    "card_learn_body": "Understand NEP 2020 and vocational pedagogy through study circles rooted in real classroom realities, not lectures.",
+    "card_share_title": "Share",
+    "card_share_body": "Share what works — a lesson, a tool, a project, a reflection — and learn from what's working in classrooms across India.",
+    "card_lead_title": "Lead",
+    "card_lead_body": "Turn contribution into recognition, and recognition into peer leadership through the Fellowship pathway.",
+    "flow_conversation": "Conversation",
+    "flow_practice": "Practice",
+    "flow_reflection": "Reflection",
+    "flow_leadership": "Leadership"
+  },
+  "pillars": {
+    "eyebrow": "The three living pillars",
+    "title": "Community pillars",
+    "sub": "Everything in HunarNet grows from three ongoing spaces of exchange.",
+    "items": [
+      {
+        "num": "01",
+        "name": "NEP Study Circles",
+        "h": "Understand NEP through classroom realities.",
+        "body": "Peer-led discussions that unpack NEP 2020 — vocational integration, pedagogy, resource readiness, assessment and timetable alignment — always rooted in what's actually happening in schools.",
+        "topics": ["Vocational education", "Grades 6 onwards", "Pedagogy", "Assessment", "Timetable alignment"],
+        "cta": "Explore Study Circles"
+      },
+      {
+        "num": "02",
+        "name": "Charcha",
+        "h": "A safe space to discuss what is actually happening in schools.",
+        "body": "Open forums for classroom challenges, school leadership constraints and resource limitations — framed as solution-building conversations, never complaint forums.",
+        "topics": ["Classroom challenges", "School leadership", "Timetable constraints", "Resources", "Implementation barriers"],
+        "cta": "Join the Conversation"
+      },
+      {
+        "num": "03",
+        "name": "Guest Knowledge Exchange",
+        "h": "Learn with experts, practitioners and institutions.",
+        "body": "Two-way sessions with experts and practitioners — built for questioning and contextual adaptation, not one-directional lectures.",
+        "topics": ["Live conversations", "Expert sessions", "Practitioner stories", "Q&A", "Recordings"],
+        "cta": "Explore Sessions"
+      }
+    ]
+  },
+  "charcha": {
+    "eyebrow": "Charcha · peer discussions",
+    "title": "Real classroom questions. Real teacher answers.",
+    "start": "+ Start a Discussion",
+    "filter_all": "All",
+    "join": "Join",
+    "replies": "replies",
+    "teachers": "teachers",
+    "items": [
+      { "tag": "Pedagogy", "q": "How are you integrating experiential learning within limited classroom time?", "replies": 32, "teachers": 18 },
+      { "tag": "NEP", "q": "What works when parents are unsure about vocational education?", "replies": 21, "teachers": 11 },
+      { "tag": "Assessment", "q": "How are you assessing hands-on learning?", "replies": 45, "teachers": 29 },
+      { "tag": "Timetable", "q": "How do you manage timetable alignment for Grade 6–8 vocational periods?", "replies": 17, "teachers": 9 },
+      { "tag": "School Leadership", "q": "How do you get your Head Master on board with a new vocational lab?", "replies": 26, "teachers": 14 }
+    ]
+  },
+  "spotlight": {
+    "eyebrow": "Teacher practice spotlight",
+    "title": "Celebrating what teachers try, learn and share",
+    "note": "Sample layout shown with photographs from HunarNet teacher-training workshops. Final teacher stories to be added with each contributor's permission.",
+    "items": [
+      { "quote": "Hands-on training in action — teachers working through a vocational activity together during a HunarNet workshop.", "cap": "Teacher Training Session · Vocational Skills" },
+      { "quote": "Learning by doing: teachers experimenting with a tie-and-dye craft exercise to experience experiential pedagogy first-hand.", "cap": "Experiential Learning Workshop" },
+      { "quote": "Peer collaboration during a hands-on vocational education training — the same spirit HunarNet brings to every classroom.", "cap": "Community Training Day" }
+    ]
+  },
+  "loop": {
+    "eyebrow": "The HunarNet loop",
+    "title": "From contribution to leadership",
+    "sub": "This loop — not a linear course — is what makes HunarNet a living community. Click a stage to see how it works.",
+    "centerTop": "HUNAR",
+    "centerBottom": "NET",
+    "stageLabel": "Stage",
+    "of": "of",
+    "stages": [
+      { "name": "Learn", "detail": "Understand NEP and vocational pedagogy through study circles and guest sessions." },
+      { "name": "Practice", "detail": "Apply ideas in your own classroom, adapted to your students and resources." },
+      { "name": "Share", "detail": "Share what happened — the attempt, the outcome, the lesson learned." },
+      { "name": "Recognition", "detail": "Get recognised through community shout-outs and the Teacher Practice Spotlight." },
+      { "name": "Lead", "detail": "Take on visible leadership — lead a session, a discussion, a theme." },
+      { "name": "Mentor", "detail": "Mentor five other teachers as a HunarNet Fellow." },
+      { "name": "Help Others", "detail": "Your mentees start their own loop — and the community compounds." }
+    ]
+  },
+  "share": {
+    "eyebrow": "Contribute",
+    "title": "Share your practice",
+    "sub": "Your classroom experience can help another teacher. Fill in the form below to submit your practice to the community.",
+    "q_type": "What would you like to share?",
+    "types": ["Classroom Practice", "Lesson / Activity", "Project", "Tool / Template", "Reflection", "School Innovation"],
+    "q_title": "Title",
+    "ph_title": "e.g. Turning a broken fan into a physics lesson",
+    "q_upload": "Upload photos / files",
+    "upload_hint": "+ Add files (optional)",
+    "q_about": "Tell us about it",
+    "ph_about": "What did you try in your classroom?",
+    "q_challenge": "What challenge were you addressing?",
+    "ph_challenge": "e.g. Students disengaged during theory-only lessons",
+    "q_changed": "What changed?",
+    "ph_changed": "e.g. Attendance and participation improved",
+    "submit": "Submit for Community",
+    "confirm_title": "Thank you for sharing!",
+    "confirm_body": "Your practice is now ready for peer review. Once approved, it may be featured in the next Teacher Practice Spotlight.",
+    "another": "Share another practice",
+    "sending": "Sending…",
+    "error": "Something went wrong. Please try again."
+  },
+  "joinCta": {
+    "title": "Join HunarNet",
+    "quote": "\"Your classroom experience can help another teacher.\"",
+    "cta": "Join the Community"
+  },
+  "impact": {
+    "eyebrow": "Impact of the community",
+    "title": "Growing, one classroom at a time",
+    "items": [
+      { "label": "Teachers Engaged", "target": 150 },
+      { "label": "Practices Shared", "target": 60 },
+      { "label": "Schools", "target": 40 },
+      { "label": "Students Reached", "target": 6000 }
+    ],
+    "testi_eyebrow": "In their words",
+    "testi_title": "What teachers are saying",
+    "testi_note": "Sample testimonials shown alongside photographs from HunarNet teacher-training workshops. Names withheld pending each contributor's permission.",
+    "testimonials": [
+      { "quote": "The peer discussions helped me see how other teachers are solving the same classroom challenges I face every day.", "name": "Participating Teacher", "role": "Vocational Skills Training" },
+      { "quote": "Trying an activity myself before teaching it to students completely changed how I plan my lessons.", "name": "Participating Teacher", "role": "Experiential Learning Workshop" },
+      { "quote": "For the first time, my classroom experience felt like something worth sharing with others.", "name": "Participating Teacher", "role": "Community Training Day" }
+    ]
+  },
+  "faqs": {
+    "eyebrow": "Good to know",
+    "title": "Frequently asked questions",
+    "sub": "Everything you need to know before joining the community.",
+    "items": [
+      { "q": "Who can join HunarNet?", "a": "Any teacher working with vocational, experiential or NEP-aligned education. The community begins with a seed group from Kaushal Bodh, Atal Tinkering Labs and multi-sector vocational programs, and opens up to more teachers over time." },
+      { "q": "How much time does it take?", "a": "As much or as little as fits your schedule. There are live sessions roughly once or twice a month, plus ongoing discussion you can dip into whenever you like — there's no minimum attendance requirement." },
+      { "q": "Is it free?", "a": "Yes. HunarNet is a free professional-learning community facilitated by Lend A Hand India — there is no membership fee." },
+      { "q": "What is Charcha?", "a": "Charcha is our peer discussion space for real classroom and school-level challenges. It's built for solution-building conversations, not complaint forums." },
+      { "q": "How do I become a Fellow?", "a": "Fellowship is optional. Fellows are selected through peer nominations, contribution score and community polls, and go on to mentor five other teachers and lead thematic discussions." },
+      { "q": "Do I need any special qualification or tech skill?", "a": "No. All you need is classroom experience and a willingness to share, learn and support fellow teachers." }
+    ]
+  },
+  "footer": {
+    "about": "About",
+    "guidelines": "Community Guidelines",
+    "contact": "Contact",
+    "resources": "Resources",
+    "tagline": "Building A Skilled Tomorrow",
+    "copyright": "© 2026 HunarNet. A Lend A Hand India initiative."
+  },
+  "mobileBar": {
+    "home": "Home",
+    "charcha": "Charcha",
+    "resources": "Resources",
+    "profile": "Profile",
+    "share": "Share a Practice",
+    "discuss": "Start a Discussion",
+    "join": "Join the Community"
+  },
+  "modal": {
+    "welcome_title": "Welcome to HunarNet",
+    "welcome_sub": "A community for teachers who believe learning happens beyond the textbook. This takes about a minute.",
+    "start": "Start",
+    "about_title": "About you",
+    "about_sub": "Tell us a little about where you teach.",
+    "name": "Name",
+    "ph_name": "Your full name",
+    "school": "School",
+    "ph_school": "Your school name",
+    "role": "Role",
+    "roles": ["Teacher", "School Leader", "Trainer", "Other"],
+    "exp_title": "Your experience",
+    "exp_sub": "What areas do you work in? (Select all that apply)",
+    "experience": ["Vocational Education", "Experiential Learning", "Kaushal Bodh", "ATL", "Multi-sector Vocational Ed.", "Other"],
+    "part_title": "How would you like to participate?",
+    "part_sub": "Select what matters most right now — you can always do more later.",
+    "participate": ["Learn", "Share", "Join discussions", "Mentor others", "Lead sessions", "Co-create resources"],
+    "back": "Back",
+    "next": "Next",
+    "finish": "Join HunarNet",
+    "success_title": "You're in!",
+    "success_sub": "Welcome to HunarNet. Look out for your first NEP Study Circle invite soon.",
+    "done": "Done",
+    "sending": "Sending…",
+    "error": "Something went wrong. Please try again."
+  }
+}

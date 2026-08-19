@@ -21,8 +21,8 @@ window.HUNARNET_CONFIG = {
        It looks like:
        https://script.google.com/macros/s/AKfyc.....xyz/exec
      ----------------------------------------------------------------------- */
-  DEMO_MODE: true,
-  APPS_SCRIPT_URL: "PASTE_YOUR_APPS_SCRIPT_WEB_APP_URL_HERE",
+  DEMO_MODE: false,
+  APPS_SCRIPT_URL: "https://script.google.com/macros/s/AKfycbzQzXITJqfoTdzA6S523F_e0Rk0c05WB6SVbNJv2ECfZmTVjxrVypkL_2XON9iDF5S8bw/exec",
 
   /* -----------------------------------------------------------------------
      LANGUAGE

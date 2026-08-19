@@ -401,7 +401,6 @@
   document.getElementById("startJoin").addEventListener("click", () => showStep(1));
   document.getElementById("doneJoin").addEventListener("click", () => {
     closeModal();
-    document.getElementById("loginLink").style.display = "inline-block";
   });
   document.querySelectorAll("[data-next]").forEach((btn) =>
     btn.addEventListener("click", () => showStep(currentStep + 1)));

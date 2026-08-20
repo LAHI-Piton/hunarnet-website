@@ -19,7 +19,7 @@ window.I18N = {
 
 (function () {
   const cfg = window.HUNARNET_CONFIG || { DEFAULT_LANG: "en", AUTO_DETECT: false };
-  const SUPPORTED = ["en", "hi"];
+  const SUPPORTED = ["en", "hi", "mr"];
   const STORAGE_KEY = "hunarnet_lang";
 
   function pickInitialLang() {
